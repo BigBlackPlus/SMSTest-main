@@ -1,13 +1,45 @@
 [
 
    {
-        "desc": "500D",
-        "url": "https://www.500d.me/register/check_mobile/?mobile=[phone]&_=[timestamp13]",
-        "method": "GET",
+        "desc": "灵办AI助手",
+        "url": "https://api.ilingban.com/v1/user/sms/code",
+        "method": "POST",
         "header": "",
         "data": {
-            "mobile": "[phone]",
-            "_":"[timestamp13]"
+            "phone": "[phone]"
+        }
+  },
+     {
+        "desc": "包阅AI",
+        "url": "https://base-api.baoyueai.com/v1/user/sms/phone-login-code",
+        "method": "POST",
+        "header": "",
+        "data": {
+          "phone": "[phone]",
+          "token": ""
+        }
+  },
+  {
+        "desc": "注册聚合账号",
+        "url": "https://www.juhe.cn/sendsms",
+        "method": "PUT",
+        "header": "",
+        "data": {
+          "mobile": "[phone]",
+          "codeType": "21"
+        }
+  },
+   {
+        "desc": "包阅AI",
+        "url": "https://user.ihuyi.com/new/api/home/safe/login_sendsms",
+        "method": "POST",
+        "header": "",
+        "data": {
+          "csessionid": "01a6lxYXBHzbSogD8nwTzE3w2GOQZWXOML9GbdDNWYi8U8zUMppFQokGsNCidoyCJgS3AP1_k5rMuVHHWJn7BQQzfK-RlHU5P04mzbzJ9rnuec35g30weiq3K-DrtnMsO1zUbFDPeq1AjZ3cdZm4820w",
+          "mobile": "[phone]",
+          "sig": "05a1C7nT4bR5hcbZlAujcdya1EdKS_Pn2mYucplTMqS7WZY3R7hm-SX5soG93Le6PruRVmeZUtlJj2ifkuQ4YTlqYx3Y-yAcV6B5R-wcPIeNCPuHhuur7iVie050-zkQrhUwr2Egt4uf6FK9BE9zo8NTIZ24hbpPMQaF8ZYramUu-hZrg4j_i2OnO9_8wZyRyY6aWfVAnVo1so98V01qj06kUd-zhmU4c4Cyobk5z3Qz_VfgIca10qbHBtDB_k_4t_9ZAWoWqVg6VqsgaBXKzPiBTO5DPewzXQC3m6hnuxWjcNlKvkMsd0jDhK_MF1jWdftmjBkc2BDud0zc44XNgQzsbIxikf7m8t-7ZJl79TdLBjp2nv9yrbh86BnV_55LVh5bHR5L209t9rlpPtkpt18ro_69GQ1MceaNeJwpSqXJw",
+          "token": "FFFF0000000001799345:login:1723800182579:0.5666138551969586"
         }
   }
+
 ]
