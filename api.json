@@ -1,0 +1,241 @@
+[
+    {
+        "desc": "网易云游戏",
+        "url": "https://n.cg.163.com/api/v1/phone-captchas/86-[phone]",
+        "method": "POST",
+        "header": "",
+        "data": {
+            "etc": {
+                "validate": ""
+            }
+        }
+    },
+    {
+        "desc": "秘塔写作",
+        "url": "https://xiezuocat.com/verify?type=signup",
+        "method": "POST",
+        "header": "",
+        "data": {
+            "phone": "86-[phone]"
+        }
+    },
+    {
+        "desc": "笔灵AI",
+        "url": "https://api.ibiling.cn/captcha/send-phone-code",
+        "method": "POST",
+        "header": "",
+        "data": {
+            "phone": "[phone]"
+        }
+    },
+     {
+        "desc": "灵构笔记",
+        "url": "https://api.88lingo.com/v1/user/phone/sms/code",
+        "method": "POST",
+        "header": "",
+        "data": {
+            "phone": "[phone]"
+        }
+    },
+     {
+        "desc": "白日梦",
+        "url": "https://api2.aibrm.com/api/user/send-sms-code",
+        "method": "POST",
+        "header": "",
+        "data": {
+            "method":"signup",
+            "phone" : "[phone]"
+        }
+    },
+    {
+          "desc": "蓝鲸体育",
+          "url": "https://api.tjyaoying.cn/api/user/getCode",
+          "method": "POST",
+          "header": "",
+          "data": {
+              "mobile":"[phone]",
+              "type":"1"
+          }
+      },
+  {
+        "desc": "英语周报",
+        "url": "https://www.ewteacher.com/dysms/ew_send.php?phone=[phone]&type=reg",
+        "method": "GET",
+        "header": "",
+        "data": {
+            "phone":"[phone]",
+            "type":"reg"
+        }
+    },
+      {
+        "desc": "TOPYS",
+        "url": "https://www.topys.cn/api/web/user/send_sms_code",
+        "method": "POST",
+        "header": "",
+        "data": {
+                "mobile": "[phone]"
+        }
+    },
+    {
+        "desc": "GhostCut",
+        "url": "https://cn.jollytoday.com/v-w-c/ve/user/send/mns_code",
+        "method": "POST",
+        "header": "",
+        "data": {
+            "app": "+GC",
+            "channelCode":"",
+            "mobile": "[phone]",
+            "registerLanguage": "zh",
+            "userType": "A"
+        }
+    },
+    {
+        "desc": "绘ai",
+        "url": "https://api.ai016.com/index.php/index/login/getCode",
+        "method": "POST",
+        "header": "",
+        "data": {
+            "phone": "[phone]",
+            "scence": "register"
+        }
+    },
+   {
+        "desc": "序列猴子开放平台",
+        "url": "https://account.mobvoi.com/v3/captcha/sms?usage=login&phone=[phone]&origin=open-api&platform=web&region=i18s&pkg=open-api",
+        "method": "GET",
+        "header": "",
+        "data": {
+            "usage": "login",
+            "phone": "[phone]",
+            "origin": "open-api",
+            "platform": "web",
+            "region": "i18s",
+            "pkg": "open-api"
+        }
+    },
+   {
+        "desc": "AI实验室",
+        "url": "https://mastergo.com/api/v1/message/code",
+        "method": "POST",
+        "header": "",
+        "data": {
+            "identity": "[phone]"
+        }
+    },
+    {
+        "desc": "Luca",
+        "url": "https://luca.cn/api/account/v1/sendSmsCode",
+        "method": "POST",
+        "header": "",
+        "data": {
+            "mobile": "[phone]",
+            "scene":"1"
+        }
+    },
+  {
+        "desc": "C知道",
+        "url": "https://passport.csdn.net/v1/register/pc/sendVerifyCode",
+        "method": "POST",
+        "header": "",
+        "data": {
+            "code": "0086",
+            "mobile": "[phone]",
+            "type":"0"
+        }
+    },
+   {
+        "desc": "秘塔AI搜索",
+        "url": "https://metaso.cn/verify?type=signup",
+        "method": "POST",
+        "header": "",
+        "data": {
+            "phone": "86-[phone]"
+        }
+    },
+      {
+        "desc": "链企AI",
+        "url": "https://www.lianqiai.cn/chain/auth/send-sms-code",
+        "method": "POST",
+        "header": "",
+        "data": {
+            "mobile": "[phone]",
+            "scene": "1"
+        }
+    },
+    {
+        "desc": "写作蛙",
+        "url": "https://frog.sci-brain.cn/frog_api/login/smsCode?mobile=[phone]",
+        "method": "POST",
+        "header": "",
+        "data": {
+            "mobile": "[phone]"
+        }
+    },
+    {
+        "desc": "奇域-登录",
+        "url": "https://www.qiyuai.net/api/moma/v2/login/sms/send?zone=86&phone=[phone]&bizId=200200003",
+        "method": "GET",
+        "header": "",
+        "data": {
+            "zone": "86",
+            "phone": "[phone]",
+            "bizld": "200200003"
+        }
+    },
+    {
+        "desc": "一帧秒创",
+        "url": "https://webapi.yizhentv.com/api/login/sms/sendSms",
+        "method": "POST",
+        "header": "",
+        "data": {
+            "data":"%7B%22a%22%3A%22FFFF0N0000000000AF39%22%2C%22c%22%3A%221723617557999%3A0.37552098684298985%22%2C%22d%22%3A%22nvc_login%22%2C%22h%22%3A%7B%22key1%22%3A%22code0%22%2C%22nvcCode%22%3A400%2C%22umidToken%22%3A%22T2gA2pu2nmxbolhBnK7Hy1IKo4mQ21gZhlJu3wf_4JCB_NJj6jjHxAC5_RXmZCMMLWE%3D%22%7D%2C%22j%22%3A%7B%22test%22%3A1%7D%2C%22b%22%3A%22140%23yDfdYQLMzzPz6Qo2L5q%2BAtSoY2Z61wod29fNOqNKUjul0xOx97gdoIuK3NH1y8em5LMFm1vMBS1cS%2F45IYCWw0lb3rsCF6hqzzcxjywgTJ%2BzzRIibHVulFzx2DD3Vtgqz%2Fvs2X82ltQzaIziVXECZW2xKfw%2Bb6GLzFrD2XQElpkwzPcfIXbLxFnx28rSLt1gzFcAxNLfBEiLMZ2aMX2FM6GtpwG%2BPJwRWX9e2SbQgL018Dt7zzYtBaCqfM96J1q4RWRzN1ytcd2Fr%2FlktO6WOxxTG3swgkVcZpB2DUwUwQpXAoK38NBF35D1vdc2WCmLB6UHPB4iXlleCF3%2FASkDSdH2v7qOSq4RB1yB2L6vcFdQY4JJfoBYWue7XvldZ4X7H2vAjtu1sClLHkd39d2%2BC2lbKdC4dMAONmH3B7%2Fflc5H%2BmdKBR3InZwI7aHLqZhxexYws1FpERX%2B6%2B3pFVRpqToxHjfP3G04d%2Fg36ASdlwnXaUq%2BKZ0u8mFXxNdfDgvD590HTAUJhzXY11VMbI49v7RLQj0FDKN9dRf20Zw9oxEVz01nDPnQr0UnvftFYttorKFld%2FJQ22TaIFEMTR%2BbI%2BMFet4%2B5BSvG80st7e0t3EBDj%2BVhYwpLMrh6MkgLvUPKYevVk516CUyHuiNqUKs40YkprI267StwTR4YaqpzaE5r9NQ2PHkTaSvQwnMbJNyBQT%2BN8MtcHOEkm8Pj%2FHRxMH4ABBJfkObru7kad6GgqlEQ0Qbsbgk39Wx2BkvXvQGuHzfzt66B4MUK0C4ABT%2FE0k%2BeYB3lE9sBXUslKnDt4gM3hzkShPjJjsMZIfsDaRRENvJUTntgGE%2F%2BgtLj5WchYGVEMEDsM0QLTeb8K70NlBdH%2BX9Y39a1CYy2qJZrTDNwgO8iuxCXKOnWR6AVRxoCM%2Ba5gpjZl4Gb6cG8WlB7lS8yUKeXG2%2BsVRKh0VIRUni8OkEfGUKp0%2FncoYRbcSuMBhsBWsK3byMzNOAovFkj%2BZXiioW7qVA1iFn5ZCDWOUUOQtwqonUO2%2BHnQk7vRi0EhvALWCdys%2BI9wBTCTgQXxY%2FkHcfOSbPQywwVw6%2B7NsLE%2FybpVbyhPBHg0oXLF2sXkoJdSM9eFIk6y7TrP9cJEJGs2Mt5gEN1LPGW5DVTlQeA9uipT4nBxU6tjGhtfjV2P9E0vTcx1ltsqFO7JWa%2F4U3SyHPs45YtcL8p%2Fo8vlH4dWU3rJx7YDMsl%2Fgwm1dOLBoQknYkzdEuKl94NsVAtblX6Ddwnc%2F9lKdJoes3PyH1mmyloVP%2FoDOZaCuKeWz6AvPFcIJhvx9yCiVPxI3jIHuFYEdxO%2FOP%2BKTTkPvOCIOe2IanGtodyxNvGq7OVcA3rrXvOtmOKR%2F138JujOna%2Bf3ztyiMJCtL3URD3c%2F2JbyZncy%2F380gaZKsO1JCulzWzHkZnTEJdshiXYdY91%2B1Hznm8jZ5fmFbc2LpdZ0Sp3Nq6tRJXvV90tXagcXkFvrKLoC%2FIILy0kZA8LOouCgp%2BMzawK3ZJLUhJFjIEqk1NEqrrlIlWMec%2BgHIj3mhU1fOsF8rOXCNCWDkCDf28aG%2BBCyrmr2FrH4mA2W39JivegKR761w9o6t5eC5ltbKhSZFurWKhbMfhDHP%2FbvVRKTC7%2B1fCXE5%2BA5mOSkzuAbmU2XVz5%2FOzLO0uAyo8rotY3d8OaWe2FLzMSYOvH8PwigXfVEsQXFRqGgTezg38Hi5szze6GnTiaSP3thC%2BQyTVvfCSEMwHRKQwRKQ2i97uVGoz%2BYm9PyDsdCuDP7%2BGRYkiS4p%2FP54V025ac5yE%2FnSNPvpsrgoMwEDXqJPfSg6rX%2FadgRvNq8AWHEwAlV4igRdj8GSypLMpLQ%2BsIngCx3PwSENtpK2HiSRIqZzfLSp5vufW4Ya5Hce%2FX9GUE%2FshP302UnnVDbfU1X%2F7GWHbVVN1NOosnCPSGdP6CFeTJ08A%2BOlgPXiTpC63GEWM2zC%22%2C%22e%22%3A%22urxWBsycOC3-pbpv56sI-FkXJkAC4-lyjx7UPd3Cu0OOu02fmTbbQ8TJwo5S8wQyxFTeobcgqh4RB6SlJnz3dfhP9_15dpnrtSqJnvya92AqwVDaHNZgpMg_4xpYvsTMEAm48ZHXJRNfarQNwp4bK2P31BBvGTXoi3PXCtAoJRxpj-R60jwupuq2sUfOi9-5%22%7D",
+            "internationalCode": "+86",
+            "phone": "[phone]"
+        }
+    },
+  {
+        "desc": "书签地球",
+        "url": "https://www.bookmarkearth.cn/web/register/send_code",
+        "method": "POST",
+        "header": "",
+        "data": {
+            "phoneorEmail": "[phone]",
+            "sendType": "register",
+            "caption":""
+        }
+    },
+    {
+        "desc": "VCG",
+        "url": "https://www.vcg.com/graphql/sendCode",
+        "method": "POST",
+        "header": "",
+        "data": {
+            "type": "mobile",
+            "value": "[phone]"
+        }
+    },
+  {
+        "desc": "MAKA",
+        "url": "https://queryservice.maka.im/api/v1/verifycodes?type=login&mobile=[phone]&captcha_phrase=&captcha_key=",
+        "method": "GET",
+        "header": "",
+        "data": {
+            "type": "login",
+            "mobile": "[phone]",
+            "captcha_phrase":"",
+            "captcha_key":""
+        }
+  },
+    {
+        "desc": "500D",
+        "url": "https://www.500d.me/register/check_mobile/?mobile=[phone]&_=[timestamp13]",
+        "method": "GET",
+        "header": "",
+        "data": {
+            "mobile": "[phone]",
+            "_":"[timestamp13]"
+        }
+  }
+
+]
+

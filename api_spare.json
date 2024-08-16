@@ -1,0 +1,13 @@
+[
+
+   {
+        "desc": "500D",
+        "url": "https://www.500d.me/register/check_mobile/?mobile=[phone]&_=[timestamp13]",
+        "method": "GET",
+        "header": "",
+        "data": {
+            "mobile": "[phone]",
+            "_":"[timestamp13]"
+        }
+  }
+]
